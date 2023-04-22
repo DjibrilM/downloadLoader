@@ -51,7 +51,7 @@ function App() {
           <div style={{ width: `${percentages}%`, background: colors[((Math.round(percentages / 10) * 10) / 10) - 1] }} className="h-full range-transition rounded-tr-lg rounded-br-lg"></div>
         </div>
 
-        <button onClick={() => startDownloading()} disabled={isDownloading} className=" disabled:cursor-not-allowed active:bg-purple-950 text-white bg-purple-800 px-10 py-4 rounded-md mt-6 disabled:bg-gray-300 disabled:text-gray-500">Downloaded</button>
+        <button onClick={() => startDownloading()} disabled={isDownloading} className=" disabled:cursor-not-allowed active:bg-purple-950 text-white bg-purple-800 px-10 py-4 rounded-md mt-6 disabled:bg-gray-300 disabled:text-gray-500">download</button>
       </section>
     </>
   )
